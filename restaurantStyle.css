@@ -1,6 +1,45 @@
+/***** FONTS *****/
+@font-face {
+font-family: "Lato";
+src: url("fonts/Lato/Lato-Regular.ttf");
+}
+@font-face {
+font-family: "GentiumBookBasic";
+src: url("fonts/Gentium_Book_Basic/GentiumBookBasic-Regular.ttf");
+}
+@font-face {
+font-family: "OpenSans";
+src: url("fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+@font-face {
+font-family: "YesevaOne";
+src: url("fonts/Yeseva_One/YesevaOne-Regular.ttf");
+}
+
+
+
+
+
+
+/*** GENEREAL SETTINGS ***/
+.container {
+	max-width: 1250px;
+}
+
 p, h1, h2, h3 {
 	text-align: center;
 	color: white;
+}
+
+p {
+	font-family: Lato;
+}
+h1, h2 {
+	font-family: YesevaOne;
+}
+
+form label {
+	font-family: OpenSans;
 }
 
 .unevenSection p, .unevenSection h1, .unevenSection h2, 
@@ -39,7 +78,7 @@ p, h1, h2, h3 {
 
 /** HEADER **/
 header {
-	background-color: grey;
+
 }
 
 #logo img {
@@ -52,13 +91,19 @@ header {
 	background: transparent;
 	z-index: 10;
 	top: 22px;
-	left: 15px;
+	left: 0px;
+	font-size: 22px;
+	font-family: YesevaOne;
 }
 
 
 /** NAV **/
-
-
+nav {
+	background-color: rgba(0,0,0,0.2);
+}
+nav #navbarNav ul li .nav-link {
+	color: white;
+}
 
 /** HOME SECTION **/
 
