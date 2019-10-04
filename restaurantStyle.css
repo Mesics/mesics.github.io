@@ -1,0 +1,85 @@
+p, h1, h2, h3 {
+	text-align: center;
+	color: white;
+}
+
+.unevenSection p, .unevenSection h1, .unevenSection h2, 
+.unevenSection h3, .unevenSection label {
+	color: yellow;
+}
+
+.menuCard p, .menuCard h3 {
+	text-align: left;
+}
+
+
+/********************************/
+
+
+
+/** BACKGROUNDS **/
+#home {
+	background-image: url(img/background/homeBg.jpg);
+}
+
+#ingredients{
+	background-image: url(img/background/ingredientsBg.jpg);
+}
+
+#reviews{
+	background-image: url(img/background/reviewsBg.jpg);
+}
+
+.unevenSection {
+	background-image: url(img/background/unevenBg.jpg);
+	background-color: white;
+	background-size: auto;
+}
+
+
+/** HEADER **/
+header {
+	background-color: grey;
+}
+
+#logo img {
+	position: relative;
+	z-index: 1;
+	height: 65px;
+}
+#logo p {
+	position: absolute;
+	background: transparent;
+	z-index: 10;
+	top: 22px;
+	left: 15px;
+}
+
+
+/** NAV **/
+
+
+
+/** HOME SECTION **/
+
+
+/** ABOUT SECTION **/
+
+
+/** INGREDIENTS SECTION **/
+
+
+
+/** MENU SECTION **/
+
+
+
+/** RESERVATION SECTION **/
+
+
+/** FOOTER **/
+footer {
+	background-color: black;
+}
+
+
