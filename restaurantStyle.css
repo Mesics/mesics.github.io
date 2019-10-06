@@ -18,10 +18,11 @@ src: url("fonts/Yeseva_One/YesevaOne-Regular.ttf");
 
 
 
-
-
-
 /*** GENEREAL SETTINGS ***/
+
+/* COULEUR gold: #dab33e */
+
+
 .container {
 	max-width: 1250px;
 }
@@ -31,9 +32,19 @@ p, h1, h2, h3 {
 	color: white;
 }
 
+a {
+	font-family: GentiumBookBasic;
+}
+
 p {
 	font-family: Lato;
+	font-size: 14px;
 }
+
+h2{
+	font-size: 36px !important;
+}
+
 h1, h2 {
 	font-family: YesevaOne;
 }
@@ -41,10 +52,16 @@ h1, h2 {
 form label {
 	font-family: OpenSans;
 }
-
-.unevenSection p, .unevenSection h1, .unevenSection h2, 
+.unevenSection h1, .unevenSection h2, 
 .unevenSection h3, .unevenSection label {
-	color: yellow;
+	color: #cc9900;
+}
+nav i{
+	color:  #dab33e;
+}
+
+.unevenSection p{
+	 color: black;
 }
 
 .menuCard p, .menuCard h3 {
@@ -59,6 +76,7 @@ form label {
 /** BACKGROUNDS **/
 #home {
 	background-image: url(img/background/homeBg.jpg);
+	background-size: cover;
 }
 
 #ingredients{
@@ -82,34 +100,65 @@ header {
 }
 
 #logo img {
-	position: relative;
-	z-index: 1;
-	height: 65px;
+	height: 45px;
 }
-#logo p {
-	position: absolute;
-	background: transparent;
-	z-index: 10;
-	top: 22px;
-	left: 0px;
-	font-size: 22px;
-	font-family: YesevaOne;
-}
-
 
 /** NAV **/
 nav {
 	background-color: rgba(0,0,0,0.2);
+	/*height: 110px;*/
 }
 nav #navbarNav ul li .nav-link {
 	color: white;
 }
 
 /** HOME SECTION **/
+#home {
+	height: 500px;
+}
 
+#home h1 {
+	font-size: 60px;
+}
+
+#home .buttons a{
+	color: white;
+	text-transform: uppercase;
+	font-family: Lato;
+	font-size: 12px;
+	border-radius: 0;
+	padding: 10px 35px;
+}
+
+#buttonMenu {
+	background-color: rgba(255, 255, 255, 0.3);
+	border: 1px solid #FFF;
+} 
+#buttonMenu:hover{
+	background-color: rgba(1,1,1, 0);
+	border: 1px solid #000;
+}	
+
+#buttonTable{
+	background-color: rgba(1, 1, 1, 0.3);
+	border: 1px solid #000;
+}
+#buttonTable:hover{
+	background-color: rgba(255, 255, 255, 0);
+	border: 1px solid #FFF;	
+}
 
 /** ABOUT SECTION **/
+#about{
+	height: 500px;
+}
 
+#imgDishAbout{
+	height: 450px;
+}
+#imgCookAbout{
+	height: 150px;
+}
 
 /** INGREDIENTS SECTION **/
 

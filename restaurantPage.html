@@ -9,6 +9,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!-- Fontawesome Icons -->
+    <script src="https://kit.fontawesome.com/a9400b1d44.js" crossorigin="anonymous"></script>
+
     <title>Lambda Restaurant</title>
   </head>
   <body>
@@ -17,30 +20,39 @@
         <nav class="navbar fixed-top navbar-expand-lg navbar-light">
 
           <div id="logo">
-            <img src="img/logo.png">
-            <p>LAMBDA</p>
+            <img src="img/logoFull.png">
           </div>
 
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 
             <ul class="navbar-nav">
-              <li class="nav-item active">
+              <li class="nav-item active mr-3">
                 <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item mr-3">
                 <a class="nav-link" href="#about">About</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item mr-3">
                 <a class="nav-link" href="#ingredients">Ingredients</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item mr-3">
                 <a class="nav-link" href="#menu">Menu</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item mr-3">
                 <a class="nav-link" href="#reviews">Reviews</a>
+              </li>
+              <li class="nav-item mr-3">
+                <a class="nav-link" href="#reservation">Reservation</a>
               </li>
             </ul>
           </div>
+
+          <div class="social">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-facebook-f"></i>
+          </div>
+
         </nav>
       
     </header>
@@ -48,31 +60,41 @@
 
     <!-- HOME SECTION -->
     <section id="home">
-        <h1 class="">
-          the right ingredients for the right food
-        </h1>
-        <!-- SEPARATOR -->
+      <div class="d-flex align-items-center h-100 justify-content-center">
+        <div class="mt-5 flex-column">
+          <h1 class="">
+            the right ingredients <br/>for the right food
+          </h1>
+          <!-- SEPARATOR -->
+          <img class="mx-auto mt-3 mb-5  d-block" src="img/separatorBig.png">
 
-        <div class="row justify-content-center">
-          <button type="button" class="btn btn-light">Book a table</button>
-          <button type="button" class="btn btn-dark">See the menu</button>
+          <div class="row justify-content-center buttons">
+            <a href="#reservation" role="button" id="buttonTable" class="btn mx-2">Book a table</a>
+
+            <a href="#menu" role="button" id="buttonMenu" class="btn mx-2">See the menu</a>
+          </div>
+
         </div>
+      </div>  
     </section>
 
 
     <!-- ABOUT SECTION -->
     <section id="about" class="unevenSection">
-      <div class="row justify-content-center">
-        <div class="descriptionAbout">
+      <div class="row d-flex h-100 justify-content-center align-items-center">
+        <div class="descriptionAbout col-md-4 offset-md-1 ">
           <h2>Just the right food</h2>
           <!-- SEPARATOR -->
+          <img class="mx-auto mt-2 mb-3 d-block" src="img/separatorSmallColor.png" />
+
           <p>
-            If you're ......
+            If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!
           </p>
-          <img class="cook" src="img/cook.png">
+          <img class="d-block mx-auto" id="imgCookAbout" src="img/cook.png">
         </div>
-        <div>
-          <img src="img/aboutDish.png" height="200">
+
+        <div class="col-md-7">
+          <img src="img/aboutDish.png" class="d-block mx-auto" id="imgDishAbout">
         </div>
       </div>
     </section>
