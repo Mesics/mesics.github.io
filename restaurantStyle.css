@@ -32,6 +32,7 @@ p, h1, h2, h3 {
 	color: white;
 }
 
+
 a {
 	font-family: GentiumBookBasic;
 }
@@ -45,8 +46,12 @@ h2{
 	font-size: 36px !important;
 }
 
-h1, h2 {
+h1, h2, h3 {
 	font-family: YesevaOne;
+}
+
+h3 {
+	font-size: 22px !important;
 }
 
 form label {
@@ -76,15 +81,18 @@ nav i{
 /** BACKGROUNDS **/
 #home {
 	background-image: url(img/background/homeBg.jpg);
-	background-size: cover;
+	background-size: auto;
 }
 
 #ingredients{
 	background-image: url(img/background/ingredientsBg.jpg);
+	background-size: auto;
 }
 
 #reviews{
 	background-image: url(img/background/reviewsBg.jpg);
+	background-size: auto;
+
 }
 
 .unevenSection {
@@ -111,10 +119,14 @@ nav {
 nav #navbarNav ul li .nav-link {
 	color: white;
 }
+.social a{
+	margin-right: 10px;
+}
 
 /** HOME SECTION **/
 #home {
-	height: 500px;
+	min-height: 500px;
+	padding-top: 60px;
 }
 
 #home h1 {
@@ -150,7 +162,7 @@ nav #navbarNav ul li .nav-link {
 
 /** ABOUT SECTION **/
 #about{
-	height: 500px;
+	min-height: 550px;
 }
 
 #imgDishAbout{
@@ -161,19 +173,99 @@ nav #navbarNav ul li .nav-link {
 }
 
 /** INGREDIENTS SECTION **/
-
+#ingredients{
+	min-height: 630px;
+	padding: 60px;
+}
+.ingredientsBlock {
+	background-color: rgba(0,0,0, 0.5);
+	padding: 60px 60px !important;
+}
 
 
 /** MENU SECTION **/
+#menu{
+	padding: 60px;
+}
+.menuItemTitle{
+	border-bottom: 1px solid #e3d7ac;
+}
+.menuItem{
+	padding: 5px;
+	margin: 12px 0;
+}
+.menuItem p {
+	margin: 5px 0;
+}
 
+.special{
+	border: 1px solid #e3d7ac;
+}
+.specialText{
+	margin: 0;
+	padding: 0;
+}
+.specialText p{
+	margin-bottom: -12px;
+	padding: 2px 8px;
+	background-color: #dbc178;
+	color: white;
+	font-size: 12px;
+}
+
+/** REVIEWS SECTION **/
+#reviews{
+	padding: 60px;
+	min-height: 600px;
+}
+.reviewsBox{
+	background-color: rgba(0,0,0, 0.5);
+	padding: 60px 60px !important;
+}
+.reviewSign{
+	margin-top: 30px;
+}
+.reviewsQuotation {
+	color: #969897;
+	font-family: Georgia;
+	font-size: 70px;
+	margin-top: -32px;
+	/*margin-left: -10px;*/
+}
+.reviewText{
+	font-size: 20px !important;
+}
 
 
 /** RESERVATION SECTION **/
+#reservation{
+	padding: 60px;
+	min-height: 600px;
+}
+.reservationImg img{
+	/*max-height: 450px;*/
+	width: 200px;
+	/*margin: 0px 25px;*/
+}
+#reservation label {
+	font-size: 12px;
+	font-weight: bold;
+}
+#reservation .btn{
+	background-color: #c9a131;
+	color: white;
+	border-radius: 0;
+	padding: 3px 50px;
+}
+.reservationText{
+	margin-top: 5px;
+}
 
 
 /** FOOTER **/
 footer {
 	background-color: black;
+	padding: 60px;
 }
 
 

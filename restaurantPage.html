@@ -48,9 +48,9 @@
           </div>
 
           <div class="social">
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-youtube"></i>
-            <i class="fab fa-facebook-f"></i>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-youtube"></i></a>
+            <a href=""><i class="fab fa-facebook-f"></i></a>
           </div>
 
         </nav>
@@ -80,17 +80,18 @@
 
 
     <!-- ABOUT SECTION -->
-    <section id="about" class="unevenSection">
-      <div class="row d-flex h-100 justify-content-center align-items-center">
+    <section id="about" class="unevenSection d-flex align-items-center">
+      <div class="row h-100 justify-content-center ">
         <div class="descriptionAbout col-md-4 offset-md-1 ">
           <h2>Just the right food</h2>
           <!-- SEPARATOR -->
           <img class="mx-auto mt-2 mb-3 d-block" src="img/separatorSmallColor.png" />
 
           <p>
-            If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!
+            If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! <br />
+            Stop in today and check us out!
           </p>
-          <img class="d-block mx-auto" id="imgCookAbout" src="img/cook.png">
+          <img class="d-block mx-auto pt-2" id="imgCookAbout" src="img/cook.png">
         </div>
 
         <div class="col-md-7">
@@ -101,17 +102,24 @@
 
 
     <!-- INGREDIENTS SECTION -->
-    <section id="ingredients">
-      <div class="justify-content-center">
-        <h2>Fine ingredients</h2>
-        <!-- SEPARATOR -->
-        <p>
-          If you've been to one.....
-        </p>
-        <div class="row">
-          <img src="img/wheat.png">
-          <img src="img/powder.png">
-          <img src="img/bread.png">
+    <section id="ingredients" class="d-flex align-items-center">
+      <div class="col-xl-6 offset-xl-6 col-md-8 offset-md-3 ml-auto">
+        <div class="col-xl-10 offset-xl-1 ingredientsBlock justify-content-center">
+          
+            <h2>Fine ingredients</h2>
+            <!-- SEPARATOR -->
+            <img class="mx-auto d-block mb-3" src="img/separatorSmallWhite.png" />
+
+            <p>
+               If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! <br/>
+               Stop in today and check us out!
+            </p>
+            <div class="row justify-content-around mt-5 mx-auto">
+              <img src="img/wheat.png">
+              <img src="img/powder.png">
+              <img src="img/bread.png">
+            </div>
+          
         </div>
       </div>
     </section>
@@ -119,124 +127,162 @@
 
     <!-- MENU SECTION -->
     <section id="menu" class="unevenSection">
-      <!-- MENU APETIZERS -->
-      <div class="menuCard col-4">
-        <h2 class="text-center">Apetizers</h2>
-        <!-- SEPARATOR -->
-        <div class="menuItem">
-          <div class="menuItemTitle row justify-content-between">
-            <h3>Tzatsiki</h3>
-            <h3>S3.99</h3>
+      <div class="row">
+
+      <div class="col-md-4 offset-md-1">
+        <!-- MENU APETIZERS -->
+        
+        <div class="menuCard">
+          <h2 class="text-center">Apetizers</h2>
+          <!-- SEPARATOR -->
+          <img class="mx-auto mb-3 d-block" src="img/separatorSmallColor.png" />
+
+          <div class="menuItem">
+            <div class="menuItemTitle row mx-auto justify-content-between">
+              <h3>Tzatsiki</h3>
+              <h3>S3.99</h3>
+            </div>
+            <p>Refreshing traditional cucumber and garlic yogurt dip</p>
           </div>
-          <p>Refreshing traditional cucumber and garlic yogurt dip</p>
+          <div class="menuItem">
+            <div class="menuItemTitle row mx-auto justify-content-between">
+              <h3>Aubergine Salad</h3>
+              <h3>S5.50</h3>
+            </div>
+            <p>Pureed eggplant, garlic, green pepper and tomato dip.</p>
+          </div>
+          <div class="menuItem">
+            <div class="menuItemTitle row mx-auto justify-content-between">
+              <h3>Aub Salad</h3>
+              <h3>S5.99</h3>
+            </div>
+            <p>Pureed eggplant, garlic, green pepper and tomato dip.</p>
+          </div>
         </div>
-        <div class="menuItem">
-          <div class="menuItemTitle row justify-content-between">
-            <h3>Aubergine Salad</h3>
-            <h3>S5.50</h3>
+
+        <!-- MENU SALADS -->
+        <div class="menuCard mt-5">
+          <h2 class="text-center">Salads</h2>
+          <!-- SEPARATOR -->
+          <img class="mx-auto mb-3 d-block" src="img/separatorSmallColor.png" />
+
+          <div class="menuItem">
+            <div class="menuItemTitle row mx-auto justify-content-between">
+              <h3>Olive Special</h3>
+              <h3>S5.99</h3>
+            </div>
+            <p>Refreshing traditional cucumber and garlic yogurt dip</p>
           </div>
-          <p>...</p>
+
+          <div class="specialText d-flex justify-content-end">
+            <p class="text-center">Special</p>
+          </div>
+          <div class="menuItem special">
+            <div class="menuItemTitle row mx-auto justify-content-between ">
+              <h3>Greek Salad</h3>
+              <h3>S5.50</h3>
+            </div>
+            <p>Pureed eggplant, garlic, green pepper and tomato dip.</p>
+          </div>
+          <div class="menuItem">
+            <div class="menuItemTitle row mx-auto justify-content-between">
+              <h3>Gusto Salad</h3>
+              <h3>S5.25</h3>
+            </div>
+            <p>Pureed eggplant, garlic, green pepper and tomato dip.</p>
+          </div>
         </div>
-        <div class="menuItem">
-          <div class="menuItemTitle row justify-content-between">
-            <h3>Aub Salad</h3>
-            <h3>S5.99</h3>
+
+      </div>
+
+      <!-- SECOND COLUMN STARTERS + DISHES -->
+      <div class="col-md-4 offset-md-2">
+        <!-- MENU STARTERS -->
+        <div class="menuCard">
+          <h2 class="text-center">Starters</h2>
+          <!-- SEPARATOR -->
+          <img class="mx-auto mb-3 d-block" src="img/separatorSmallColor.png" />
+
+          <div class="menuItem">
+            <div class="menuItemTitle row mx-auto justify-content-between">
+              <h3>Hatouml</h3>
+              <h3>S3.99</h3>
+            </div>
+            <p>Refreshing traditional cucumber and garlic yogurt dip</p>
           </div>
-          <p>...</p>
+          <div class="menuItem">
+            <div class="menuItemTitle row mx-auto justify-content-between">
+              <h3>Spinach Pie</h3>
+              <h3>S5.50</h3>
+            </div>
+            <p>Pureed eggplant, garlic, green pepper and tomato dip.</p>
+          </div>
+        </div>
+
+        <!-- MENU MAIN DISHES -->
+        <div class="menuCard mt-5">
+          <h2 class="text-center">Main Dishes</h2>
+          <!-- SEPARATOR -->
+          <img class="mx-auto mb-3 d-block" src="img/separatorSmallColor.png" />
+
+          <div class="menuItem">
+            <div class="menuItemTitle row mx-auto justify-content-between">
+              <h3>Cornish Mackeret</h3>
+              <h3>S5.99</h3>
+            </div>
+            <p>Refreshing traditional cucumber and garlic yogurt dip.</p>
+          </div>
+
+          <div class="specialText d-flex justify-content-end">
+            <p class="text-center">Special</p>
+          </div>
+          <div class="menuItem special">
+            <div class="menuItemTitle row  mx-auto justify-content-between">
+              <h3>Roast Lamb</h3>
+              <h3>S5.50</h3>
+            </div>
+            <p>Pureed eggplant, garlic, green pepper and tomato dip.</p>
+          </div>
+        
+
+          <div class="menuItem">
+            <div class="menuItemTitle row mx-auto justify-content-between">
+              <h3>Fried Chicken</h3>
+              <h3>S5.25</h3>
+            </div>
+            <p>Pureed eggplant, garlic, green pepper and tomato dip.</p>
+          </div>
+          <div class="menuItem">
+            <div class="menuItemTitle row mx-auto justify-content-between">
+              <h3>Pastitsio</h3>
+              <h3>S5.99</h3>
+            </div>
+            <p>Refreshing traditional cucumber and garlic yogurt dip.</p>
+          </div>
         </div>
       </div>
 
-      <!-- MENU SALADS -->
-      <div class="menuCard col-4">
-        <h2 class="text-center">Salads</h2>
-        <!-- SEPARATOR -->
-        <div class="menuItem">
-          <div class="menuItemTitle row justify-content-between">
-            <h3>Olive Special</h3>
-            <h3>S5.99</h3>
-          </div>
-          <p>Refreshing traditional cucumber and garlic yogurt dip</p>
-        </div>
-        <div class="menuItem">
-          <div class="menuItemTitle row justify-content-between special">
-            <h3>Greek Salad</h3>
-            <h3>S5.50</h3>
-          </div>
-          <p>...</p>
-        </div>
-        <div class="menuItem">
-          <div class="menuItemTitle row justify-content-between">
-            <h3>Gusto Salad</h3>
-            <h3>S5.25</h3>
-          </div>
-          <p>...</p>
-        </div>
-      </div>
-
-      <!-- MENU STARTERS -->
-      <div class="menuCard col-4">
-        <h2 class="text-center">Starters</h2>
-        <!-- SEPARATOR -->
-        <div class="menuItem">
-          <div class="menuItemTitle row justify-content-between">
-            <h3>Hatouml</h3>
-            <h3>S3.99</h3>
-          </div>
-          <p>Refreshing traditional cucumber and garlic yogurt dip</p>
-        </div>
-        <div class="menuItem">
-          <div class="menuItemTitle row justify-content-between">
-            <h3>Spinach Pie</h3>
-            <h3>S5.50</h3>
-          </div>
-          <p>...</p>
-        </div>
-      </div>
-
-      <!-- MENU MAIN DISHES -->
-      <div class="menuCard col-4">
-        <h2 class="text-center">Main Dishes</h2>
-        <!-- SEPARATOR -->
-        <div class="menuItem">
-          <div class="menuItemTitle row justify-content-between">
-            <h3>Cornish Mackeret</h3>
-            <h3>S5.99</h3>
-          </div>
-          <p>Refreshing traditional cucumber and garlic yogurt dip</p>
-        </div>
-        <div class="menuItem">
-          <div class="menuItemTitle row justify-content-between special">
-            <h3>Roast Lamb</h3>
-            <h3>S5.50</h3>
-          </div>
-          <p>...</p>
-        </div>
-        <div class="menuItem">
-          <div class="menuItemTitle row justify-content-between">
-            <h3>Fried Chicken</h3>
-            <h3>S5.25</h3>
-          </div>
-          <p>...</p>
-        </div>
-        <div class="menuItem">
-          <div class="menuItemTitle row justify-content-between">
-            <h3>Pastitsio</h3>
-            <h3>S5.99</h3>
-          </div>
-          <p>...</p>
-        </div>
       </div>
 
     </section>
 
     <!-- REVIEWS SECTION -->
-    <section id="reviews">
-      <div class="align-center justify-content-center">
+    <section id="reviews" class="d-flex align-items-center">
+      <div class="reviewsBox align-center col-xl-6 col-md-8 offset-xl-3 offset-md-2">
         <h2>Guest Reviews</h2>
         <!-- SEPARATOR -->
-        <p class="reviewText">
-          If you've been to one of our....
-        </p>
+        <img class="mx-auto d-block mb-2" src="img/separatorSmallWhite.png" />
+
+        <div class="d-flex">
+
+          <div class="reviewsQuotation align-items-baseline">
+            &ldquo;
+          </div>
+          <h3 class="reviewText ">
+            If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist!
+                 Stop in today and check us out!
+          </h3>
+        </div>
         <p class="reviewSign">
           - food inc., New York
         </p>
@@ -244,18 +290,22 @@
     </section>
 
     <!-- RESERVATION SECTION -->
-    <section id="reservation" class="unevenSection">
+    <section id="reservation" class="unevenSection d-flex align-items-center">
       <div class="row">
-        <div class="reservationImg justify-content-around">
+        <div class="reservationImg d-flex justify-content-around col-md-6">
           <img src="img/reservationDish1.png">
           <img src="img/reservationDish2.png">
         </div>
 
-        <div>
+        <div class="reservationText col-xl-4 offset-xl-1 col-md-5 offset-md-1">
           <h2>Just the right food</h2>
           <!-- SEPARATOR -->
-          <p>
-            If you've been to one of....
+          <img class="mx-auto mb-3 d-block" src="img/separatorSmallColor.png" />
+
+          <p class="mb-3">
+            If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food. <br/>
+            Delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist!
+                 Stop in today and check us out!
           </p>
 
           <form>
@@ -291,9 +341,11 @@
               </div>
             </div>
 
-            <button type="submit" class="btn btn-primary mb-2">
-              Book now!
-            </button>
+            <div class="d-flex justify-content-center">
+              <button type="submit" class="btn mb-2">
+                Book now!
+              </button>
+          </div>
           </form>
         </div>
       </div>
@@ -305,31 +357,38 @@
       <div id="footerAbout" class="footerItem col-md-4">
         <h3>About us</h3>
         <!-- SEPARATOR -->
+        <img class="mx-auto d-block mb-2" src="img/separatorSmallWhite.png" />
+
         <p>
-          Lambda's new and ....
+          Lambda's new and expanded Chelsea location represents a truly authentic <strong>Greek</strong> patisserie, featuring breakfasts of fresh croissants and steaming bowls of café. <br/>
+          Lambda the best restaurant in town
         </p>
       </div>
 
       <div class="footerItem" id="footerHours col-md-4">
         <h3>Opening Hours</h3>
         <!-- SEPARATOR -->
+        <img class="mx-auto d-block mb-2" src="img/separatorSmallWhite.png" />
+
         <p>
-          <span>Mon-Tue:</span>
-          7:00am 8:00pm
+          <strong>Mon-Tue:</strong>
+          7:00am-8:00pm
           <br/>
-          <span>Fri-Sun:</span>
-          7:00am 10:00pm
+          <strong>Fri-Sun:</strong>
+          7:00am-10:00pm
         </p>
         <!-- CARD OPTIONS -->
       </div>
 
       <div id="footerLocation" class="footerItem col-md-4">
-        <h3>Our Location</h3>
+        <h3>Our Location</>
         <!-- SEPARATOR -->
-        <p>
+        <img class="mx-auto d-block mb-2" src="img/separatorSmallWhite.png" />
+
+        <p><strong>
           19th Paradise Street Sitia <br/>
           128 Meserole Avenue
-        </p>
+        </strong></p>
         <!-- SOCIAL NETWORKS -->
       </div>
     </footer>
